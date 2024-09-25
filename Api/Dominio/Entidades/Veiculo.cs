@@ -21,4 +21,6 @@ public class Veiculo
     public int Ano { get;set; } = default!;
     [Required]
     public string Placa {get;set;} = default!;
+    [Required]
+    public string Cor {get;set;} = default!;
 }

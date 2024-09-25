@@ -23,4 +23,6 @@ public class Administrador
     [Required]
     [StringLength(30)]
     public string Endereco {get;set;} = default!;
+    [Required]
+    public string Telefone {get;set;} = default!;
 }
