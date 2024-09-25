@@ -20,4 +20,7 @@ public class Administrador
     [Required]
     [StringLength(10)]
     public string Perfil { get;set; } = default!;
+    [Required]
+    [StringLength(30)]
+    public string Endereco {get;set;} = default!;
 }

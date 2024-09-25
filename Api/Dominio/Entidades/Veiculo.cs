@@ -19,4 +19,6 @@ public class Veiculo
 
     [Required]
     public int Ano { get;set; } = default!;
+    [Required]
+    public string Placa {get;set;} = default!;
 }
