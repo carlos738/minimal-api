@@ -35,9 +35,9 @@ namespace Test.Domain.Servicos{
             context.Database.ExecuteSqlRaw("TRUNCATE TABLE Veiculos");
 
             var veiculo = new Veiculo();
-            veiculo.Nome = "Uno";
-            veiculo.Marca = "Fiat";
-            veiculo.Ano = 1999;
+            veiculo.Nome = "HB20";
+            veiculo.Marca = "HYUNDAI";
+            veiculo.Ano = 2021;
 
             var veiculoServico = new VeiculoServico(context);
 
@@ -55,9 +55,9 @@ namespace Test.Domain.Servicos{
         context.Database.ExecuteSqlRaw("TRUNCATE TABLE Veiculos");
 
         var veiculo = new Veiculo();
-        veiculo.Nome = "Uno";
-        veiculo.Marca = "Fiat";
-        veiculo.Ano = 1999;
+        veiculo.Nome = "HB20";
+        veiculo.Marca = "HYUNDAI";
+        veiculo.Ano = 2021;
 
         var veiculoServico = new VeiculoServico(context);
 
