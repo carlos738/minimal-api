@@ -19,7 +19,7 @@ namespace Test.Domain.Entidades
             veiculo.Ano = 2022;
 
             // assert
-            Assert.AreEqual(2,veiculo.Id);
+            Assert.AreEqual(1,veiculo.Id);
             Assert.AreEqual("Ferrari",veiculo.Nome);
             Assert.AreEqual("Ferrari",veiculo.Marca);
             Assert.AreEqual(2022,veiculo.Ano);

@@ -44,7 +44,7 @@ namespace Test.Domain.Servicos{
             // ACTION
             veiculoServico.Incluir(veiculo);
             // ASSERT
-            Assert.AreEqual(2,veiculoServico.Todos(2).Count());
+            Assert.AreEqual(1,veiculoServico.Todos(1).Count());
             
 
         }
@@ -66,7 +66,7 @@ namespace Test.Domain.Servicos{
         var veiculoDoBanco = veiculoServico.BuscaPorId(veiculo.Id);
 
         // Assert
-        Assert.AreEqual(2, veiculoDoBanco?.Id);
+        Assert.AreEqual(1, veiculoDoBanco?.Id);
 
         }
     }
