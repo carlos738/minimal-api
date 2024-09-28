@@ -6,4 +6,5 @@ public record VeiculoDTO
     public string Marca { get;set; } = default!;
     public int Ano { get;set; } = default!;
     public string Placa {get;set;} = default!;
+    public string Cor{get;set;}= default!;
 }
